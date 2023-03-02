@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Salas">
+        <template for:each={listaSalas} for:item="sala">
+            <div key={sala.nome}>
+                <c-cmp-filho sala={sala}></c-cmp-filho>
+            </div>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Condicional">
+        <lightning-input type="checkbox" name="view" label="Habilitar" onchange={handleChange}></lightning-input>
+            <lightning-input name="cidade" label="Cidade" onchange={handleChange}></lightning-input>
+            <lightning-button variant="brand" label="Salvar" onclick={handleClick}>Salvar</lightning-button>
+            <template if:true={condicional}>
+                <template for:each={listaCidades} for:item="cidade">
+                    <div key={cidade}>
+                        {cidade}
+                    </div>
+                </template>
+            </template>
+    </lightning-card>
+</template>

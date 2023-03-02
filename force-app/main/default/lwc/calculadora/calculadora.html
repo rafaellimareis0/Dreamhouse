@@ -1,0 +1,33 @@
+<template>
+    <lightning-card>
+        <lightning-layout>
+            <lightning-layout-item size="6">
+                <div>
+                    <lightning-input label="Primeiro Valor" name="primeiro" type="number" onchange={handleChange}></lightning-input>
+                </div>
+                <div>
+                    <lightning-input label="Segundo Valor" name="segundo" type="number" onchange={handleChange}></lightning-input>
+                </div>
+                <div class="slds-m-top_small">
+                    <lightning-button name="+" variant="brand" label="+" onclick={handleClick}></lightning-button>
+                    <lightning-button name="-" variant="destructive" label="-" onclick={handleClick}></lightning-button>
+                    <lightning-button name="X" variant="success" label="X" onclick={handleClick}></lightning-button>
+                    <lightning-button name="/" variant="neutral" label="/" onclick={handleClick}></lightning-button>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item size="6">
+                <div>
+                    Histórico
+                </div>
+                <div>
+                    <lightning-button label="Limpar histórico" variant="neutral" onclick={limparLista}></lightning-button>
+                </div>
+                <template for:each={listaTratada} for:item="item">
+                    <div key={item}>
+                        {item}
+                    </div>
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
