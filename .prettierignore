@@ -5,6 +5,10 @@
 **/staticresources/**
 .localdevserver
 .sfdx
+<<<<<<< HEAD
+=======
+.sf
+>>>>>>> 739b038 (Novo commit)
 .vscode
 
 coverage/

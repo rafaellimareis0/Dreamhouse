@@ -1,5 +1,12 @@
 {
   "trailingComma": "none",
+<<<<<<< HEAD
+=======
+  "plugins": [
+    "prettier-plugin-apex",
+    "@prettier/plugin-xml"
+  ],
+>>>>>>> 739b038 (Novo commit)
   "overrides": [
     {
       "files": "**/lwc/**/*.html",
