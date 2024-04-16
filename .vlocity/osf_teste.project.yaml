@@ -1,0 +1,22 @@
+Name: OSF_Teste
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/DR_CreateAsset
+    - DataRaptor/DR_GetAccount
+    - DataRaptor/DR_GetAssets
+    - DataRaptor/DR_GetOpp
+    - DataRaptor/DR_GetProduto
+    - DataRaptor/DR_OSF_CreateAccount
+    - DataRaptor/DR_OSF_CreateProduct
+    - IntegrationProcedure/OSF_ConsultaCEP
+    - OmniScript/OSF_CadastroAccount_English
+    - OmniScript/OSF_CreateProduct_English
+    - VlocityCard/OSF_GetAssets
+    - VlocityCard/OSF_GetOpp
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+    - VlocityCard
+SalesforceTypesToFetch:
+    - CustomField
