@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Account</members>
-		<members>Aulas_LWC__c</members>
-		<members>Contact</members>
-		<members>House__c</members>
-		<members>User</members>
-		<name>CustomObject</name>
+		<members>OSF_ConsultaCEP</members>
+		<name>ApexClass</name>
 	</types>
-	<version>59.0</version>
+	<types>
+		<members>osf_Assets</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Account.osf_QuantidadeTotalAssets__c</members>
+		<members>Asset.osf_pkl_Categoria__c</members>
+		<members>Product2.osf_Account__c</members>
+		<members>Product2.osf_pkl_Categoria__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>OSF_Create_Opp</members>
+		<members>OSF_Update_Quantidade_de_Assets</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>osf_categoria</members>
+		<name>GlobalValueSet</name>
+	</types>
+	<types>
+		<members>osf_Vendedor</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>Vendedor</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>Asset.osf_Livro</members>
+		<members>Asset.osf_Revista</members>
+		<members>Product2.osf_Livro</members>
+		<members>Product2.osf_Revista</members>
+		<name>RecordType</name>
+	</types>
+	<version>60.0</version>
 </Package>

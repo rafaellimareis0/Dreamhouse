@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>osf_QuantidadeTotalAssets__c</fullName>
+    <description>Número total de assets cadastrados para a livraria.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Este campo é atualizado automaticamente quando um novo asset é criado ou excluído.</inlineHelpText>
+    <label>Quantidade Total de Assets</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

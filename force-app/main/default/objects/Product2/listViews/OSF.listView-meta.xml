@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OSF</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>osf_pkl_Categoria__c</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>osf_pkl_Categoria__c</field>
+        <operation>equals</operation>
+        <value>Ficção,Aventura,Romance</value>
+    </filters>
+    <label>OSF</label>
+</ListView>
