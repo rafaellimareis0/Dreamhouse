@@ -5,8 +5,14 @@ global with sharing class OSF_ConsultaCEP implements vlocity_cmt.VlocityOpenInte
         output.put('addressDetails', addressDetails);
         return true;
 	}
+<<<<<<< HEAD
     public static Map<String, String> consultaCep(String cep){
         String endpoint = 'https://opencep.com/v1/' + cep;
+=======
+    
+    public static Map<String, String> consultaCep(String cep){
+        String endpoint = 'https://viacep.com.br/ws/'+cep+'/json/';
+>>>>>>> 3a4563f2d372da8deb844bdfe64fcff434dfc230
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         request.setEndpoint(endpoint);

@@ -1,0 +1,12 @@
+<apex:page standardController="Account" recordSetVar="accounts" tabStyle="Account" showHeader="true" sidebar="true" title="AccountList">
+    <apex:sectionHeader title="Lista de Contas"/>
+    <ul>
+        <apex:repeat value="{!accounts}" var="a">
+            <li>
+                <apex:outputLink value="/{!a.Id}">
+                    {!a.Name}
+                </apex:outputLink>
+            </li>
+        </apex:repeat>
+    </ul>
+</apex:page>

@@ -2,11 +2,14 @@
 public with sharing class LightningLoginFormControllerTest {
 
  @IsTest
+<<<<<<< HEAD
  static void testLoginWithInvalidCredentials() {
   System.assertEquals('Argument 1 cannot be null', LightningLoginFormController.login('testUser', 'fakepwd', null));
  }
 
  @IsTest
+=======
+>>>>>>> 3a4563f2d372da8deb844bdfe64fcff434dfc230
  static void LightningLoginFormControllerInstantiation() {
   LightningLoginFormController controller = new LightningLoginFormController();
   System.assertNotEquals(controller, null);

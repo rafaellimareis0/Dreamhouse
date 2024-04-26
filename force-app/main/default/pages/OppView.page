@@ -1,0 +1,13 @@
+<apex:page standardController="Opportunity" tabStyle="Opportunity" showHeader="true" sidebar="true" title="OppView" >
+    <apex:sectionHeader title="Oportunidade"/>
+    <apex:form >
+        <apex:pageBlock mode="edit">
+            <apex:pageBlockSection title="Detalhes da Oportunidade" collapsible="false">
+                <apex:outputField value="{!Opportunity.Name}"/>
+                <apex:outputField value="{!Opportunity.Amount}"/>
+                <apex:outputField value="{!Opportunity.CloseDate}"/>
+                <apex:outputField value="{!Opportunity.Account.Name}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

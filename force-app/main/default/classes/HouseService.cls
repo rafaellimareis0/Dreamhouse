@@ -23,5 +23,4 @@ public with sharing class HouseService {
            throw new AuraHandledException(e.getMessage());
         }
     }
-}  
-  
+}
