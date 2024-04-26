@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>AccountSummary</members>
+		<members>AnswersHome</members>
+		<members>BandwidthExceeded</members>
+		<members>ChangePassword</members>
+		<members>CommunitiesLanding</members>
+		<members>CommunitiesLogin</members>
+		<members>CommunitiesSelfReg</members>
+		<members>CommunitiesSelfRegConfirm</members>
+		<members>CommunitiesTemplate</members>
+		<members>DisplayImage</members>
+		<members>DisplayUserInfo</members>
+		<members>Exception</members>
+		<members>FileNotFound</members>
+		<members>ForgotPassword</members>
+		<members>ForgotPasswordConfirm</members>
+		<members>HelloWorld</members>
+		<members>IdeasHome</members>
+		<members>InMaintenance</members>
+		<members>MicrobatchSelfReg</members>
+		<members>MyProfilePage</members>
+		<members>SiteLogin</members>
+		<members>SiteRegister</members>
+		<members>SiteRegisterConfirm</members>
+		<members>SiteTemplate</members>
+		<members>Unauthorized</members>
+		<members>UnderConstruction</members>
+		<members>UserStatus</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
 		<members>Account</members>
 		<members>Aulas_LWC__c</members>
 		<members>Contact</members>
